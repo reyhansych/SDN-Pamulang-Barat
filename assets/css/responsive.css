@@ -1,0 +1,175 @@
+ /* Animation Scroll */
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+ @media screen and (max-width: 825px) {
+    /* Navbar */
+    .navbar-nav {
+      margin-top: 1rem;
+    }
+    .navbar-nav a::after {
+      display: none;
+    }
+  
+    .navbar-logo img {
+      width: fit-content;
+      height: fit-content;
+    }
+  
+    .navbar-text {
+      font-size: 15px;
+      margin-right: auto;
+    }
+  
+    /* Jumbotron */
+    .carousel-item {
+      height: 50vh;
+    }
+  
+    .carousel-item img {
+      height: 100%;
+    }
+  
+    .carousel-caption h5 {
+      font-size: 15px;
+    }
+  
+    .carousel-caption p {
+      font-size: 8px;
+    }
+  
+    .carousel-control-prev,
+    .carousel-control-next {
+      padding-top: 3rem;
+    }
+  
+    /* sejarah */
+    #sejarah-1 {
+      width: 100%;
+    }
+  
+    /* footer */
+    #footer-text {
+      font-size: 16px;
+    }
+  
+    #footer-logo img {
+      display: none;
+    }
+  
+    #footer-social i {
+      font-size: 19px;
+    }
+  
+    #footer-isi {
+      font-size: 14px;
+    }
+  }
+
+  /* ekstrakulikuler */
+  
+  
+  @media screen and (min-height: 1024px) and (max-height: 1281px) {
+    .carousel-inner img {
+      height: 100%;
+    }
+  
+    #sejarah-1 {
+      width: 100%;
+    }
+  
+    #border {
+      width: 100%;
+    }
+  
+    #footer-text {
+      font-size: 16px;
+    }
+  
+    #footer-logo img {
+      display: none;
+    }
+  
+    #footer-social i {
+      font-size: 19px;
+    }
+  
+    #footer-isi {
+      font-size: 14px;
+    }
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .contact-col {
+      flex-basis: 100%;
+    }
+  }
+  
+  footer {
+    font-family: "Poppins", sans-serif;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+.container-header {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: -20%;
+}
+
+.container-title {
+    margin-inline: 10%;
+}
+
+.carousel-content {
+    flex-wrap: wrap;
+}
+
+.carousel-desc-text h3 {
+    font-size: 36px;
+}
+
+.mt-400px {
+    margin-top: -250px;
+}
+
+.inner-brown-container {
+    flex-wrap: wrap;
+}
+
+.half-container {
+    width: 100%;
+}
+
+.half-container hr {
+    width: 100%;
+}
+
+.description-medium {
+    font-size: 18px;
+}
+
+.inner-aksi-container {
+    margin-inline: 5px;
+}
