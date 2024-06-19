@@ -150,7 +150,7 @@ h6 {
 
 @media screen and (max-width: 768px) {
   #header .logo a {
-    font-size: 18px; /* Adjust font size for smaller screens */
+    font-size: 15px; /* Adjust font size for smaller screens */
     margin-left: 0; /* Reset margin for smaller screens */
   }
 }
@@ -181,7 +181,9 @@ h6 {
     margin: 0 15px 0 0;
     padding: 6px 18px;
   }
+  
 }
+
 .navbar {
   padding: 0;
 }
