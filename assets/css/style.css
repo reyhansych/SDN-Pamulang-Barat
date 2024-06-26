@@ -108,3 +108,34 @@
     color: #555;
     font-weight: 400;
   }
+
+  /* visi-misi */
+
+  .brown-container {
+    background-color:rgb(248, 248, 248);
+    padding: 2%;
+    font-size: 15px;  
+}
+
+.text-container-mini-mt100px {
+    padding-top: 10px;
+}
+
+.inner-brown-container {
+    color: rgb(22, 22, 22);
+    text-align: justify;
+    padding: 10px;
+    display: flex;
+}
+
+.brown-container-header {
+    color: rgb(0, 0, 0);
+    margin-bottom: -0.5px;
+    padding: 5px;
+}
+
+.brown-container a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
